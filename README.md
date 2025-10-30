@@ -26,3 +26,9 @@ Los resultados de estos ejercicios se imprimen en la consola al iniciar la aplic
 ### Implementación 2 (Ejercicio 5)
 - **Endpoint:** `GET /api/external/users`
   - Consulta en tiempo real la lista de usuarios de `https://jsonplaceholder.typicode.com/users` y la devuelve.
+
+### Pruebas de Carga (JMeter)
+
+Se realizó una prueba de carga utilizando Apache JMeter para simular 20 usuarios concurrentes realizando 10 peticiones cada uno al endpoint `GET /api/posts/user/1/titles`.
+
+*   **Plan de Pruebas:** El plan de pruebas de JMeter (`.jmx`) se encuentra en la carpeta `/jmeter-tests` de este repositorio.
